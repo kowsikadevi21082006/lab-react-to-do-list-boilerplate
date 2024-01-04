@@ -16,7 +16,7 @@ export default class Input extends Component {
           }}
           onKeyPress={(e) => { if (e.key === 'Enter') { this.props.handleSubmit() } }}
         />
-      <button onClick={this.props.handleSubmit}>Create</button>
+      <button onClick={this.props.handleSubmit}>Enter</button>
 
       </div>
     );

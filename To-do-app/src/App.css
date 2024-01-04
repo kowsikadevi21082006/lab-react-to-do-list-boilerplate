@@ -58,7 +58,7 @@
     border: 1px solid black;
     min-width: 800px;
     border-radius:20px 0 0 0;
-    background-color: #b0f1dc;
+    background-color: #f1d7b0;
     color: black;
 }
 
@@ -72,7 +72,7 @@
     padding: 5px;
     font-weight: bold;
     color: white;
-    background-color: blue;
+    background-color: rgb(153, 153, 209);
 }
 
 #delete-btn{
@@ -80,7 +80,7 @@
     padding: 5px;
     font-weight: bold;
     color: white;
-    background-color: red;
+    background-color: rgb(253, 85, 85);
 }
 
 #input button,#delete-btn,#update-btn:hover{
