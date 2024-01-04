@@ -9,7 +9,7 @@ export default class Input extends Component {
       <div id="input">
         <input
           type="text"
-          placeholder="Enter Text"
+          placeholder="Type something here"
           value={this.props.inputValue}
           onChange={(e) => {
             this.props.handleChange(e.target.value)
